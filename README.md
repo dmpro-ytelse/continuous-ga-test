@@ -13,3 +13,7 @@ Generational (traditional) GA is the classic GA algorithm which focuses on manip
 ## Continuous GA
 
 Continuous GA does not have a concept of generations, but rather continously performs GA operations on a single population.
+
+# Interesting paper that mentions generational GA / continuous GA
+
+[VLSI Hardware Design for Genetic Algorithms and Its Parallel and Distributed Extensions](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.116.1921&rep=rep1&type=pdf)
