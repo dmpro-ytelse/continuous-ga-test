@@ -54,7 +54,7 @@ class GenerationalGeneticAlgorithmSolver(object):
 
         return {
             "solution": best_individual,
-            "fitness": problem.fitness(population[0]),
+            "fitness": problem.fitness(best_individual),
             "work": generation,
         }
 
@@ -103,6 +103,6 @@ class ContinuousGeneticAlgorithmSolver(object):
 
         return {
             "solution": best_individual,
-            "fitness": problem.fitness(population[0]),
+            "fitness": problem.fitness(best_individual),
             "work": work,
         }
